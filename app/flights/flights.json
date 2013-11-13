@@ -1,0 +1,50 @@
+[
+	{
+		"time": "03:10",
+		"from": "Hanoi",
+		"to": "Ho Chi Minh",
+		"available": 20,
+		"total": 300,
+		"ticket": "20$"
+	},
+	{
+		"time": "20:10",
+		"from": "Danang",
+		"to": "Nhatrang",
+		"available": 100,
+		"total": 500,
+		"ticket": "10$"
+	},
+	{
+		"time": "10:40",
+		"from": "Bankok",
+		"to": "Kuala lumpur",
+		"available": 120,
+		"total": 200,
+		"ticket": "30$"
+	},
+	{
+		"time": "20:40",
+		"from": "Hanoi",
+		"to": "Paris",
+		"available": 400,
+		"total": 400,
+		"ticket": "15$"
+	},
+	{
+		"time": "9:40",
+		"from": "Ho Chi Minh",
+		"to": "London",
+		"available": 500,
+		"total": 500,
+		"ticket": "35$"
+	},
+	{
+		"time": "5:60",
+		"from": "Nhatrang",
+		"to": "Danang",
+		"available": 0,
+		"total": 500,
+		"ticket": "10$"
+	}
+]

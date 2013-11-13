@@ -1,0 +1,44 @@
+<!-- Content table -->
+<div class="panel panel-default">
+  <div class="panel-heading">Flights Information</div>
+  <wij-grid id="flightGrid" data="flights">
+    <columns>
+      <column data-key="time" header-text="Time to"></column>
+      <column data-key="from" header-text="From"></column>
+    </columns>
+  </wij-grid>
+</div>
+
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <h3 class="panel-title">Helper</h3>
+  </div>
+  <div class="panel-body">
+    Panel content
+  </div>
+  <div>
+    <h3>Depart time</h3>
+    <div>
+      <label>Outbound: {{outVals[0] | percent2time}}</label>
+      <wij-slider id="out-time" range="true" values="outVals"></wij-slider>
+    </div>
+    <div>
+      <label>Return</label>
+      <wij-slider range="true" values="returnTime"><wij-slider>
+    </div>
+  </div>
+  <div>
+    <h4>Airlines</h4>
+    <div>
+      <input type="checkbox"> Vietnam
+      <input type="checkbox"> Jetstar
+    </div>
+  </div>
+  <div>
+    <h4>Airpots</h4>
+    <div>
+      <input type="checkbox"> Camranh
+      <input type="checkbox"> Nhatrang
+    </div>
+  </div>
+</div>

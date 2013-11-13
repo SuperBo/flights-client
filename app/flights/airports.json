@@ -1,0 +1,43 @@
+[
+	{
+		"name": "Ho Chi Minh City",
+		"code": "HCM",
+		"nation": "Vietnam"
+	},
+	{
+		"name": "Nha Trang",
+		"code": "NTC",
+		"nation": "Vietnam"
+	},
+	{
+		"name": "Danang",
+		"code": "DNC",
+		"nation": "Vietnam"
+	},
+	{
+		"name": "Hanoi",
+		"code": "HN",
+		"nation": "Vietnam"
+	},
+		{
+		"name": "Haiphong",
+		"code": "HP",
+		"nation": "Vietnam"
+	},
+		{
+		"name": "Nha Trang",
+		"code": "NTC",
+		"nation": "Vietnam"
+	},
+		{
+		"name": "Nha Trang",
+		"code": "NTC",
+		"nation": "Vietnam"
+	},
+
+		{
+		"name": "Nha Trang",
+		"code": "NTC",
+		"nation": "Vietnam"
+	}
+]

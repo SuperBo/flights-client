@@ -1,0 +1,41 @@
+<div class="well search-controls">
+  <form id="search-form" method="get" action="#/flights?">
+    <div class="row">
+      <div id="departure" class="form-group">
+        <label for="departure-input">From</label>
+        <input id="depature-input" class="form-control" type="text" placeholder="enter a city">
+      </div>
+      <div id="destination" class="form-group">
+        <label for="destination-input" class="label-control">To</label>
+        <input id="destination-input" class="form-control" type="text" placeholder="enter a city">
+      </div>
+    </div>
+    <div class="row">
+      <div id="detail">
+        <div class="clearfix" id="journey-type-toggle">
+          <input type="checkbox" id="journey-type-return" name="journey-type" tabindex="4" checked="checked" ng-model="hasReturn">
+          <label for="journey-type-return">return</label>
+        </div>
+        <div class="clearfix" id="journey-date-container">
+          <p class="label">Depart</p>
+          <div class="journey-date">
+            <label class="hide" for="departure-date-calendar">Departure date</label>
+            <wij-inputdate id="departure-date" show-trigger="true" date-format="MM/dd/yyyy" placeholder="select a day" date="departDate"></wij-inputdate>
+          </div>
+          <div class="journey-date journey-date-return">
+            <label class="hide" for="return-date-calendar">Return date</label>
+            <wij-inputdate id="return-date" show-trigger="true" placeholder="select a day"></wij-inputdate>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row last clearfix" id="search-ancillaries">
+      <div id="search-controls-container">
+        <button class="btn large-button" id="search-controls-button" type="submit" tabindex="20">
+          <span class="button-text">Search</span>
+          <span class="button-spinner">&nbsp;</span>
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
